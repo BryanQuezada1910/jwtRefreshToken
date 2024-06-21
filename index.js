@@ -43,4 +43,4 @@ app.use('/api/auth', authRoutes);      // Ruta de procesos
 app.use('/api/private', privateRoutes); // Ruta privada
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT} modificado`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
